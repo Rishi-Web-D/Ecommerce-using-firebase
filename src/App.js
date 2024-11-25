@@ -14,7 +14,7 @@ import AuthProvider from "./context/AuthProvider";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Ecommerce-using-firebase">
     <AuthProvider>    
     <DataProvider>
       <CartProvider>       

@@ -2,7 +2,7 @@
   "name": "react-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Rishi-Web-D/Ecommerce-using-firebase",
+  "homepage": "https://Rishi-Web-D.github.io/Ecommerce-using-firebase",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
