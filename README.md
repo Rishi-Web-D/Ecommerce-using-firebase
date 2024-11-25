@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+// async function addProductsToFirestore() {
+//   try {
+//     const productsCollectionRef = collection(db, "products");
+
+//     for (const category of SHOP_DATA) {
+//       await addDoc(productsCollectionRef, {
+//         title: category.title, // The category title
+//         items: category.items, // The array of items for that category
+//       });
+//       console.log(`Category "${category.title}" added successfully!`);
+//     }
+
+//     console.log("All categories have been added to Firestore.");
+//   } catch (error) {
+//     console.error("Error adding data to Firestore: ", error);
+//   }
+// }
+{/* <button onClick={addProductsToFirestore}>get</button> Add this button to add product */}
